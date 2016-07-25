@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="cool.superfcking.apps.about.MainActivity">
+
+    <ImageView
+        android:id="@+id/apps_image_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:scaleType="center"
+        android:src="@drawable/mobileapp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="8dp"
+        android:textSize="34sp"
+        android:textColor="#212121"
+        android:text="Super Fcking Cool Apps"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="8dp"
+        android:paddingTop="8dp"
+        android:textSize="16sp"
+        android:textColor="@android:color/darker_gray"
+        android:text="We build your awesome apps. Want an android app? This is where to look!"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="8dp"
+        android:paddingTop="8dp"
+        android:textSize="16sp"
+        android:textColor="@android:color/darker_gray"
+        android:text="123 Fake Street, Tinseltown CA"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="8dp"
+        android:paddingTop="8dp"
+        android:textSize="16sp"
+        android:textColor="@android:color/darker_gray"
+        android:text="415 373 8000"/>
+
+
+
+
+</LinearLayout>
